@@ -1,0 +1,105 @@
+body{
+  margin: 5rem ;
+  background-color:	rgb(180, 160, 210);
+  font-family:Tahoma;
+  color:white;
+  background: url("https://media.licdn.com/dms/image/C5612AQEGnwiWMYFJ_g/article-cover_image-shrink_720_1280/0/1595990797854?e=2147483647&v=beta&t=jdwVV5s4uEw8flqa1awoqpTDCFVnN8eruWxTMCm3VPY");
+  }
+
+  h1{
+    font-size:30px;
+  }
+
+  h1,p{
+  text-align:center;
+  text-shadow:0 0 5px #000000;
+  }
+
+  form{
+  background-color:rgb(0, 0, 0, 70%);
+  width:28rem;
+  padding:0 1em;
+  margin:auto;
+  border-radius: 1rem;
+  }
+
+  fieldset{
+    border:none;
+    width:100%;
+    padding:10px;
+  }
+
+  textarea{
+    margin-top:5px;
+  }
+
+  .form-elements{
+    display: flex;
+    justify-content: center;
+  }
+
+  button{
+    margin: 1rem;
+    width: 50%;
+    height: 2rem;
+    background-color: pink;
+    font-weight: 600;
+    border-radius: 1rem;
+  }
+
+  button:hover{
+    background-color: black;
+    color: pink;
+  }
+
+  .button{
+    display: flex;
+    justify-content: center;
+  }
+
+
+  input{
+    font-size: 1rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+  }
+
+  .select-options{
+    border: none;
+    padding: 0 1em 0 0;
+    margin: 0 auto;
+    font-weight: 600;
+    font-size: 1rem;
+    width: 5.5rem;
+  }
+
+  .select-div{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .line-center{
+    display: flex;
+    justify-content: center;
+    margin: 0.25rem;
+  }
+
+  .select-center{
+    display: flex;
+    justify-content: center;
+  }
+
+  .individual-radio-buttons{
+    display: flex;
+    justify-content: center;
+  }
+
+  .check-boxes{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .center-check-boxes{
+    display: flex;
+    justify-content: center;
+  }

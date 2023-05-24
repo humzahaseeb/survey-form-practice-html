@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css">
+    <h1 id="title">Foodpanda Survey Form</h1>
+  </head>
+  <body>
+    <p id="description"><em>Thank you for taking the time to help us improve the platform</em></p>
+
+    <form>
+      <div class="form-body">
+      <fieldset class="form-elements">
+        <label id="name-label">Name: <br>
+          <input type="text" id="name" placeholder="Enter your name" required>
+        </label>
+      </fieldset>
+      <fieldset class="form-elements">
+        <label id="email-label">Email: <br>
+          <input type="email" id="email" placeholder="Enter your Email" required>
+        </label>
+      </fieldset>
+
+      <fieldset class="form-elements">
+        <label id="number-label">Age (optional): <br>
+          <input type="number" placeholder=" write your Age...">
+        </label>
+      </fieldset>
+
+      <div class="select-whole-div">
+      <fieldset class="form-elements select-div">
+          <label>
+            <span class="line-center">What foodpanda service did you avail?</span>
+          </label>
+          <select class="select-options">
+            <option>select</option>
+            <option>Food delivery</option>
+            <option>Pandamart</option>
+            <option>Shops</option>
+            <option>Pick-up</option>
+            <option>Pandago</option>
+          </select>
+        </fieldset>
+        </div>
+<div classname="radio-buttons">
+  <label>
+    <span class="line-center">Would you recommend foodpanda to a friend?</span>
+  </label>
+  <div class="individual-radio-buttons">
+    <div class="radio-options">
+      <input type="radio" name="recommend" checked>
+      <label>Definitely</label>
+    </div>
+    <div class="radio-options">
+      <input type="radio" name="recommend">
+      <label>Maybe</label>
+    </div>
+    <div class="radio-options">
+      <input type="radio" name="recommend">
+      <label>Not Sure</label>
+    </div>
+  </div>
+</div>
+
+<fieldset>
+  <label>
+    <span class="line-center">What is your favorite feature of foodpanda?</span>
+  </label>
+  <div class="select-center">
+    <select class="select-options">
+      <option>select</option>
+      <option>Fast delivery</option>
+      <option>Many restaurant and shop options</option>
+      <option>Easy to use app</option>
+      <option>Multiple deals</option>
+    </select>
+  </div>
+</fieldset>
+
+<div>
+  <label><span class="line-center">What would you like to see improved? <br>(Check all that apply)</span></label>
+  <div class="center-check-boxes">
+    <div class="check-boxes">
+      <label><input type="checkbox" name="delivery-time">Delivery Time</label>
+      <label><input type="checkbox" name="options">Restaurant/Shop Options</label>
+      <label><input type="checkbox" name="usability">App Usability</label>
+      <label><input type="checkbox" name="delivery-guys">Delivery guys</label>
+      <label><input type="checkbox" name="help-center">Help Center</label>
+      <label><input type="checkbox" name="reward">Vouchers and Rewards</label>
+    </div>
+  </div>
+</div>
+
+<fieldset>
+  <label>Any further comments or suggestions?</label>
+  <textarea rows=5 cols=49></textarea>
+</fieldset>
+        <div class="button">
+        <button>Submit</button>
+        </div>
+      </div>
+    </form>
+  </body>
+</html>
