@@ -103,3 +103,8 @@ body{
     display: flex;
     justify-content: center;
   }
+
+  .text-area{
+    display: flex;
+    justify-content: center;
+  }
